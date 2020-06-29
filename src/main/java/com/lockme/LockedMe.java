@@ -15,7 +15,7 @@ public class LockedMe {
    		System.out.println("Developed on: "+date);
    		System.out.println("--------------------------------");
    		Scanner s=new Scanner(System.in);
-   		String path="E:\\LockedMe\\";
+   		String path="E:\\LockedMe\\";//specify the path here 
    		int ch=0;
    		
    		do{
