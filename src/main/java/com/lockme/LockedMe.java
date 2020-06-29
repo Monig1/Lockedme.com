@@ -53,10 +53,10 @@ public class LockedMe {
 			    	        System.out.println(" File created in " +f1.getPath() );
 			    	      } 
 			    	 else {
-			    	        System.out.println(" File already exists");
+			    	        System.out.println(" File already exists in "+f1.getPath());
 			    	      }
 			     }catch(IOException e) {
-			         System.out.println("An error occurred.");
+			         System.out.println("Something went wrong.");
 			         e.printStackTrace();
 			     }
 				System.out.println("--------------------------------");
@@ -102,7 +102,7 @@ public class LockedMe {
 				break;
 			default:
 				
-					System.out.println("Invalid option.Try valid options listed");
+					System.out.println("Invalid option.Try other valid options in the list");
 					System.out.println("--------------------------------");
 					break;	
 			}	
